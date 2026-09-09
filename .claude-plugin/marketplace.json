@@ -1,0 +1,14 @@
+{
+  "name": "benjamin-skills",
+  "owner": {
+    "name": "Benjamin"
+  },
+  "description": "Skills von Benjamin für Claude Code",
+  "plugins": [
+    {
+      "name": "eigene-skills",
+      "source": "./",
+      "description": "Meine eigenen Skills"
+    }
+  ]
+}
