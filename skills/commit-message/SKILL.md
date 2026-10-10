@@ -70,7 +70,8 @@ Bei `!` darf der Footer entfallen. Dann beschreibt die Beschreibung den Bruch.
 - Ein Footer besteht aus einem Token, gefolgt von `: ` oder ` #`, und einem Wert.
 - Im Token ersetzt Du Leerzeichen durch Bindestriche, zum Beispiel `Reviewed-by`. Ausnahme: `BREAKING CHANGE`.
 - Verweise auf Tickets gehören in einen Footer, zum Beispiel `Refs: #123`.
-- Füge keine Footer hinzu, die auf eine Beteiligung einer KI hinweisen, also weder `Co-Authored-By: Claude` noch einen `Generated with`-Hinweis.
+- Hat ein KI-Agent an den Änderungen mitgewirkt, nenne ihn als Co-Autor in einem Footer `Co-Authored-By: <Agent> <E-Mail>`, zum Beispiel `Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>`. Verwende den Namen und die Adresse des Agenten, den Du tatsächlich einsetzt, und die Vorgabe der Sitzung, falls sie eine nennt.
+- Füge keinen `Generated with`-Hinweis hinzu. Der Co-Autor-Footer ist der einzige Hinweis auf die Beteiligung einer KI.
 
 ## Beispiele
 

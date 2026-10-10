@@ -58,7 +58,7 @@ Beim Testen einer Änderung also zuerst klären, welcher der beiden Wege gerade 
 
 ## Commits
 
-Für Commits in diesem Repository gilt der eigene Skill `commit-message` und nicht eine abweichende Standardvorgabe der Sitzung: Conventional Commits 1.0.0, englisch, und **keine Footer, die auf eine Beteiligung einer KI hinweisen** — weder `Co-Authored-By: Claude` noch ein `Generated with`-Hinweis. Das Repository ist die Referenz für seine eigene Konvention; `git log` soll zeigen, was der Skill erzeugt.
+Für Commits in diesem Repository gilt der eigene Skill `commit-message` und nicht eine abweichende Standardvorgabe der Sitzung: Conventional Commits 1.0.0, englisch, und **ein Footer `Co-Authored-By: <Agent> <E-Mail>` nennt den eingesetzten Agenten als Co-Autor**. Einen `Generated with`-Hinweis gibt es nicht. Das Repository ist die Referenz für seine eigene Konvention; `git log` soll zeigen, was der Skill erzeugt.
 
 ## Herkunft
 
